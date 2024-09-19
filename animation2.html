@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.jk{
+            width: 150px;
+            height:150px ;
+            border: 5px solid rgb(43, 43, 228);
+            background-color:mediumaquamarine ;
+            animation-name: apple;
+            animation-duration:6s ;
+
+        }
+        @keyframes apple{
+            0%   {background-color:mediumaquamarine;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: hsl(352, 83%, 55%);}
+
+        }
+        div.img{
+            width: 200px;
+            height: 200px;
+            background-image: url(https://qph.cf2.quoracdn.net/main-qimg-bbe9d88e3b9e7ffbeac2cf4182d54fc1);
+            animation-name:img ;
+            background-size: cover;
+            background-position:center ;
+            animation-duration: 6s;
+
+        }
+        @keyframes img{
+            
+            0%{background-image:url("https://qph.cf2.quoracdn.net/main-qimg-bbe9d88e3b9e7ffbeac2cf4182d54fc1") ;}
+            25%{background-image: url("https://www.astrosage.com/celebrity-horoscope/img/Zain-Imam-horoscope.jpg");}
+            50%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHJ7wUOnScCvheX8T-kLwnKEtDrBrwgil1Q&s");}
+            100%{background-image:url("https://i.pinimg.com/550x/66/74/47/667447e401b7fb27021a1a8b12064d1a.jpg") ;}
+        }
+    </style>
+</head>
+<body>
+    <div class="jk">1</div><br><br>
+    <div class="img">img</div>
+</body>
+</html>
